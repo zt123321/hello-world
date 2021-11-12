@@ -1,0 +1,7 @@
+char * strcpy(char *dst,const char *src)
+{
+    assert(dst != NULL && src != NULL);
+    char *ret = dst;
+    my_memcpy(dst, src, strlen(src)+1);
+    return ret;
+}
