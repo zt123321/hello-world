@@ -1,5 +1,4 @@
-﻿// MathClient.cpp
-// compile with: cl /EHsc MathClient.cpp /link MathLibrary.lib
+﻿
 
 #include <iostream>
 #include "MathLibrary.h"
